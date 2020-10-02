@@ -1,0 +1,55 @@
+/*--- abel font ---*/
+@font-face {
+  font-family: Abel;
+  src: url("/fonts/Abel/Abel-Regular.ttf");
+}
+
+/*--- anton font ---*/
+@font-face {
+  font-family: Anton;
+  src: url("/fonts/Anton/Anton-Regular.ttf");
+}
+
+/*--- josefin font ---*/
+@font-face {
+  font-family: Josefin;
+  src: url("/fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+/*--- Lexend font ---*/
+@font-face {
+  font-family: Lexend;
+  src: url("/fonts/Lexend_Deca/LexendDeca-Regular.ttf");
+}
+
+/*--- Livvic font ---*/
+@font-face {
+  font-family: Livvic;
+  src: url("/fonts/Livvic/Livvic-Regular.ttf");
+}
+
+/*---------------------------- Variables ---------------------------*/
+/*---------------------------- Colors ----------------------------*/
+/*--------------x------------- Colors ---------------x------------*/
+/*---------------------------- fonts ----------------------------*/
+/*--------------x------------- fonts ---------------x------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Abel;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=easy.css.map */
