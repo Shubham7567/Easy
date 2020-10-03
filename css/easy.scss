@@ -64,14 +64,10 @@ table{
             text-align: left;
         }
         th,td{
-            border-bottom: 1px solid $grey;
+            border-bottom: 1px solid $default;
             margin: 0px;
             padding: 10px;
         }
-    }
-    tr:hover{
-        background-color: lighten($grey, 25%);
-        cursor: pointer;
     }
 }
 
@@ -97,7 +93,6 @@ h3{
     font-size: 2.3rem;
 }
 
-
 h4{
     font-size: 1.7rem;
 }
@@ -115,3 +110,5 @@ h6
 
 @import "scss/container";
 @import "scss/container_fluid";
+@import "scss/row";
+@import "scss/background";
