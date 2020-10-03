@@ -1,10 +1,11 @@
-@import "fonts";
-@import "variables";
+@import "scss/fonts";
+@import "scss/variables";
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: $abel;
+    font-family: $roboto;
+    font-size: 1.1rem;
 }
 
 html{
@@ -20,3 +21,97 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+a{
+    text-decoration: none;
+    font-size: 1.0rem;
+}
+
+a:visited{
+    color: $black;
+}
+
+a:active{
+    color: $indigo;
+}
+
+p{
+    font-size: 1.0rem;
+    line-height: 1.1rem;
+}
+
+div{
+    margin: 0px;
+    padding: 10px;
+}
+
+section{
+    margin: 10px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+table{
+    border:0px;
+    height: auto;
+    width: 100%;
+    border-collapse: collapse;
+    tr{
+        th{
+            font-weight: 600;
+            text-align: left;
+        }
+        th,td{
+            border-bottom: 1px solid $grey;
+            margin: 0px;
+            padding: 10px;
+        }
+    }
+    tr:hover{
+        background-color: lighten($grey, 25%);
+        cursor: pointer;
+    }
+}
+
+header,footer{
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+
+h2{
+    font-size: 2.9rem;
+}
+
+
+h3{
+    font-size: 2.3rem;
+}
+
+
+h4{
+    font-size: 1.7rem;
+}
+
+
+h5{
+    font-size: 1.3rem;
+}
+
+
+h6
+{
+    font-size: .8rem;
+}
+
+@import "scss/container";
+@import "scss/container_fluid";

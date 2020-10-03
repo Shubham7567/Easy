@@ -1,31 +1,19 @@
-/*--- abel font ---*/
+/*--- Epilogue font ---*/
 @font-face {
-  font-family: Abel;
-  src: url("/fonts/Abel/Abel-Regular.ttf");
+  font-family: Epilogue;
+  src: url("/fonts/Epilogue/Epilogue-VariableFont_wght.ttf");
 }
 
-/*--- anton font ---*/
+/*--- Oswald font ---*/
 @font-face {
-  font-family: Anton;
-  src: url("/fonts/Anton/Anton-Regular.ttf");
+  font-family: Oswald;
+  src: url("/fonts/Oswald/Oswald-VariableFont_wght.ttf");
 }
 
-/*--- josefin font ---*/
+/*--- Roboto font ---*/
 @font-face {
-  font-family: Josefin;
-  src: url("/fonts/Josefin_Sans/JosefinSans-Regular.ttf");
-}
-
-/*--- Lexend font ---*/
-@font-face {
-  font-family: Lexend;
-  src: url("/fonts/Lexend_Deca/LexendDeca-Regular.ttf");
-}
-
-/*--- Livvic font ---*/
-@font-face {
-  font-family: Livvic;
-  src: url("/fonts/Livvic/Livvic-Regular.ttf");
+  font-family: Roboto;
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
 }
 
 /*---------------------------- Variables ---------------------------*/
@@ -36,7 +24,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Abel;
+  font-family: Roboto;
+  font-size: 1.1rem;
 }
 
 html {
@@ -51,5 +40,150 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.0rem;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:active {
+  color: #3f51b5;
+}
+
+p {
+  font-size: 1.0rem;
+  line-height: 1.1rem;
+}
+
+div {
+  margin: 0px;
+  padding: 10px;
+}
+
+section {
+  margin: 10px 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border: 0px;
+  height: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr th {
+  font-weight: 600;
+  text-align: left;
+}
+
+table tr th, table tr td {
+  border-bottom: 1px solid #9e9e9e;
+  margin: 0px;
+  padding: 10px;
+}
+
+table tr:hover {
+  background-color: #dedede;
+  cursor: pointer;
+}
+
+header, footer {
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.9rem;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: .8rem;
+}
+
+.container {
+  margin: 0px 300px;
+  padding: 10px 20px;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    margin: 0px 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 0px 150px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    margin: 0px 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin: 0px 60px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .container {
+    margin: 0px 40px;
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    margin: 0px 30px;
+    padding: 10px 0px;
+  }
+}
+
+.container-fluid {
+  margin: 0px 50px;
+  padding: 10px 20px;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .container-fluid {
+    margin: 0 30px;
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=easy.css.map */
