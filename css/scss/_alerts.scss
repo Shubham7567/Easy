@@ -1,0 +1,13 @@
+.alert{
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: $epilogue;
+    word-spacing: 4px;
+}
+
+.alert-primary{
+    background-color: lighten($primary,40%);
+    color: darken($primary,10%);
+}

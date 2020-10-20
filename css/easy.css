@@ -595,4 +595,17 @@ h6 {
 }
 
 /*------x------ background classes ------x------*/
+.alert {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-family: Epilogue;
+  word-spacing: 4px;
+}
+
+.alert-primary {
+  background-color: #dae6ee;
+  color: #3e6d8b;
+}
 /*# sourceMappingURL=easy.css.map */
